@@ -5,8 +5,8 @@ library(quantmod)
 # install.packages('timeSeries')
 # install.packages('tseries')
 library(timeSeries)
-library(xts)
 library(tseries)
+library(xts)
 library(rugarch)
 df=read.csv('all-crypto-currencies/crypto-markets.csv')
 unique(df[,'name'])
@@ -35,7 +35,7 @@ diff(series_to_analyze)
 R=diff(series_to_analyze)/series_to_analyze[-length(series_to_analyze)]
 df_new$V=V
 df_new$R=c(0,R)
-df_new=df_new[seq(300,dim(df_new)[[1]],1),c('R','V','date')]
+df_new=df_new[seq(300,dim(df_new)[[1]]-300,1),c('R','V','date')]
 df_new$date=as.Date(df_new$date,format='%Y-%m-%d')
 df_new$mixed_variable=df_new$R*df_new$V
 # V=V[seq(300,length(V),1)]
@@ -49,18 +49,24 @@ df_new$date=as.POSIXct(df_new$date)
 # df_new=as.matrix(df_new)
 qxts <- xts(df_new[,-3], order.by=as.POSIXct(df_new$date))
 
-model = auto.arima(df_new$R,
-                   xreg = df_new$mixed_variable)
-model
+windows()
+tsdisplay(df_new$R)
+model = auto.arima(df_new$R,xreg = df_new$mixed_variable)
+arima(df_new$R,order=c(1,0,0),xreg=df_new$mixed_variable,include.mean = TRUE)
+# model$coef
 # model = auto.arima(R,xreg = data.frame(mixed_variable))
 g1=ugarchspec(variance.model = list(model = "sGARCH", garchOrder = c(1, 1)),
-           mean.model = list(armaOrder = c(1, 0),
+              mean.model  = list(armaOrder = c(0, 0),
+                                 arfima =FALSE,include.mean = TRUE,
                              external.regressors = qxts$mixed_variable,
-                             archex = FALSE),distribution.model ='norm' )
+                             archex = FALSE),distribution.model ='std' )
 # df=data.frame(mixed_variable,R)
 # colnames(df)=c('R','mv')
 g1fit=ugarchfit(g1,data=qxts$R)
-g1fit
+########################### REGRESS SIGMA ON OTHER FACTORS ############
+g1fit@fit$sigma
+
+
 fit <- Arima(R, order = c(1,0,0), xreg = mixed_variable)
 # if (fit['coef'][[1]][[3]]<0){
 #   print(crypto)
@@ -68,7 +74,7 @@ fit <- Arima(R, order = c(1,0,0), xreg = mixed_variable)
 summary(model)
 par(mar=c(0.1,0.1,0.1,0.1))
 resids=unlist(model['residuals'])
-windows()
+
 tsdisplay(resids)
 dev.off()
 min(model['residuals'])
