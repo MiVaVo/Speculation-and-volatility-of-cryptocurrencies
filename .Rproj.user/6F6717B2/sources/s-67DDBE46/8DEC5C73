@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1525346201837.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8DEC5C73",
+    "lastKnownWriteTime" : 1525457089,
+    "last_content_update" : 1525457089228,
+    "path" : "C:/Projects/diplom_in_r/first_script.R",
+    "project_path" : "first_script.R",
+    "properties" : {
+        "cursorPosition" : "51,28",
+        "scrollLine" : "42",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
