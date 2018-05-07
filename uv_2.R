@@ -4,9 +4,12 @@ library(timeSeries)
 library(tseries)
 library(xts)
 library(rugarch)
-df=read.csv('all-crypto-currencies/crypto-markets.csv')
+df=read.csv('btc_usd_datasets_new.csv')
 unique(df[,'name'])
-df_new=df[c('name','date','open','high','low','close','volume','market')]
+# df_new=df[c('name','date','open','high','low','close','volume','market')]
+df_new=df
+df_new[,'name']=as.character(df_new[,'name'])
+df_new[,'date']=as.Date(df_new[,'date'])
 df_new=df_new[df_new[,'name'] %in% 'Bitcoin',]
 logturnover=log(df_new['volume']+0.00000255)
 counts=0
@@ -89,7 +92,7 @@ g1=ugarchspec(variance.model = list(model = "sGARCH",
                                     external.regressors = NULL,
                                     variance.targeting = FALSE),
               mean.model  = list(armaOrder = c(1,1),
-                                 arfima =TRUE,include.mean = FALSE,
+                                 arfima =FALSE,include.mean = TRUE,
                                  external.regressors = matrix(df_new$mixed_variable)), 
               distribution.model = "std")
 g1fit=ugarchfit(g1,data=qxts$R)

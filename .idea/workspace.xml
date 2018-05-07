@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27725c51-6879-4f72-b121-e32d3648d5fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prepare_data.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/all_work.R" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.RData" afterPath="$PROJECT_DIR$/.RData" />
+    <list default="true" id="27725c51-6879-4f72-b121-e32d3648d5fa" name="Default" comment="smth">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_from_quandl/BCHARTS-BITSTAMPUSD.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_from_quandl/BCHARTS-COINBASEUSD.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_from_quandl/BCHARTS-ITBITUSD.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_from_quandl/BCHARTS-KRAKENUSD.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_from_quandl/BCHARTS-MTGOXUSD.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/diplom.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/literature/Dynamic Volume-Return Relation of Individual Stocks.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/literature/Price dynamics and speculative trading in bitcoin.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/literature/Volatility estimation for Bitcoin A comparison of GARCH models.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/literature/Volume autocorrelation-information and investor trading.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/~$diplom.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/~WRL1061.tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addition.r" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btc_quandl.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/df_prepared_only_btc.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/funcs.R" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m2.R" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prepare_data_from_scratch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_funcs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/total-bitcoins.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rhistory" afterPath="$PROJECT_DIR$/.Rhistory" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/console06/INDEX001" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/console06/INDEX001" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/source-pane.pper" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/source-pane.pper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/windowlayoutstate.pper" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/windowlayoutstate.pper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/sources/prop/INDEX" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/sources/prop/INDEX" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" afterPath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/descriptive_stats.R" afterPath="$PROJECT_DIR$/descriptive_stats.R" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/diplom_in_r.iml" afterPath="$PROJECT_DIR$/.idea/diplom_in_r.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/df_prepared_for_multiple_analysis.csv" afterPath="$PROJECT_DIR$/df_prepared_for_multiple_analysis.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multivariate_analysis.R" afterPath="$PROJECT_DIR$/multivariate_analysis.R" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepare_data.py" afterPath="$PROJECT_DIR$/prepare_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/univariate_analysis.R" afterPath="$PROJECT_DIR$/univariate_analysis.R" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,13 +45,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="prepare_data.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prepare_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prepare_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="245">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="80" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prepare_data_from_scratch.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prepare_data_from_scratch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crypto_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crypto_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="python_funcs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_funcs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#63#1615#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -49,6 +105,21 @@
     <findStrings>
       <find>Vs</find>
       <find>Rs</find>
+      <find>#</find>
+      <find>get_json_data</find>
+      <find>col</find>
+      <find>'name'</find>
+      <find>'close'</find>
+      <find>'volume'</find>
+      <find>'date'</find>
+      <find>trend_lasts</find>
+      <find>plot(</find>
+      <find>null</find>
+      <find>na</find>
+      <find>isn</find>
+      <find>.mean</find>
+      <find>btc_usd_datasets_new.to_csv</find>
+      <find>pct</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -58,14 +129,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/prepare_data.py" />
+        <option value="$PROJECT_DIR$/prepare_data_from_scratch.py" />
+        <option value="$PROJECT_DIR$/python_funcs.py" />
+        <option value="$PROJECT_DIR$/crypto_data.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="388" />
-    <option name="y" value="-8" />
-    <option name="width" value="932" />
-    <option name="height" value="780" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -89,11 +162,6 @@
             <path>
               <item name="diplom_in_r" type="b2602c69:ProjectViewProjectNode" />
               <item name="diplom_in_r" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="diplom_in_r" type="b2602c69:ProjectViewProjectNode" />
-              <item name="diplom_in_r" type="462c0819:PsiDirectoryNode" />
-              <item name="all-crypto-currencies" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,18 +212,18 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33655393" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3542673" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15128593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1376702" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -168,18 +236,31 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="smth" />
+    <option name="LAST_COMMIT_MESSAGE" value="smth" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/prepare_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/descriptive_stats.R">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -197,7 +278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -211,35 +291,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all_work.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/all_work.R" />
     <entry file="file://$PROJECT_DIR$/descriptive_stats.R">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all_work.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/all_work.R" />
     <entry file="file://$PROJECT_DIR$/prepare_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="245">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="80" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepare_data_from_scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#63#1615#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
