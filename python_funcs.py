@@ -1,5 +1,22 @@
 import pandas as pd
 import numpy as np
+import pickle
+import os
+
+import quandl
+from datetime import datetime
+quandl.ApiConfig.api_key = 'FsG5WQxG6ubGPBiPBzx5'
+base_polo_url = 'https://poloniex.com/public?command=returnChartData&currencyPair={}&start={}&end={}&period={}'
+start_date = datetime.strptime('2015-01-01', '%Y-%m-%d') # get data from the start of 2015
+end_date = datetime.now() # up until today
+pediod = 86400 # pull daily data (86,400 seconds per day)
+data_dir = 'crypto_from_quandl/'
+datasets_created_python='datasets_created_python/'
+
+def create_folder(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
 def prepare_df(df):
     df = df[['date', 'name', 'volume', 'close']]
     df_last = pd.pivot_table(df, values=['volume', 'close'], index=['date'], columns=['name'])
@@ -38,7 +55,8 @@ def prepare_df(df):
     res_table = pd.concat([RVt, Vt, Rt], axis=1)
     return res_table
 
-def prepare_df_v2(df,turnover_name='volume',price_name='close',crypto_name='name',date_name='date',include_5_change=True):
+def prepare_df_v2(df,turnover_name='volume',price_name='close',crypto_name='name',date_name='date',
+                  include_5_change=True,how_to_deal_with_na='drop',trend_lasts = 2):
     # df=btc_usd_datasets_new.copy()
     # price_name = 'price'
     # crypto_name = 'name'
@@ -47,8 +65,12 @@ def prepare_df_v2(df,turnover_name='volume',price_name='close',crypto_name='name
     df = df[[date_name, crypto_name, turnover_name, price_name]]
     df_last = pd.pivot_table(df, values=[turnover_name, price_name], index=[date_name], columns=[crypto_name])
     df_last.index = pd.to_datetime(df_last.index)
+
     if np.any(df_last.isnull(), axis=1).sum()!=0:
-        raise ValueError('DATAFRAME CONTAINS NANs')
+        if how_to_deal_with_na == 'drop':
+            df_last = df_last.dropna()
+        else:
+            raise ValueError('DATAFRAME CONTAINS NANs')
 
     # 2. Prepare Rt: returns (shor will be Rt) for each cryprocyrrency
     list(df_last)
@@ -63,7 +85,7 @@ def prepare_df_v2(df,turnover_name='volume',price_name='close',crypto_name='name
     Vt_temp = np.log(Vt_temp + 0.00000255)
     # Vt_temp.plot()
     # plt.show()
-    trend_lasts = 50
+
     Vt = []
     for i in range(0, Vt_temp.shape[0]):
         if i < trend_lasts:
@@ -88,3 +110,47 @@ def prepare_df_v2(df,turnover_name='volume',price_name='close',crypto_name='name
     else:
         res_table = pd.concat([RVt, Vt, Rt], axis=1)
     return res_table
+
+def merge_dfs_on_column(dataframes, labels, col):
+    '''Merge a single column of each dataframe into a new combined dataframe'''
+    series_dict = {}
+    for index in range(len(dataframes)):
+        series_dict[labels[index]] = dataframes[index][col]
+
+    return pd.DataFrame(series_dict)
+
+def get_json_data(json_url, cache_path):
+    '''Download and cache JSON data, return as a dataframe.'''
+    try:
+        f = open(cache_path, 'rb')
+        df = pickle.load(f)
+        print('Loaded {} from cache'.format(json_url))
+    except (OSError, IOError) as e:
+        print('Downloading {}'.format(json_url))
+        df = pd.read_json(json_url)
+        df.to_pickle(cache_path)
+        print('Cached {} at {}'.format(json_url, cache_path))
+    return df
+
+def get_crypto_data(poloniex_pair):
+    '''Retrieve cryptocurrency data from poloniex'''
+    json_url = base_polo_url.format(poloniex_pair, start_date.timestamp(), end_date.timestamp(), pediod)
+    data_df = get_json_data(json_url, 'crypto_from_poloniex/'+poloniex_pair)
+    data_df = data_df.set_index('date')
+    return data_df
+
+def get_quandl_data(quandl_id):
+    '''Download and cache Quandl dataseries'''
+    cache_path = '{}{}.pkl'.format(data_dir, quandl_id.replace('/', '-'))
+    try:
+        f = open(cache_path, 'rb')
+        df = pickle.load(f)
+        print('Loaded {} from cache'.format(quandl_id))
+    except (OSError, IOError) as e:
+        print('Downloading {} from Quandl'.format(quandl_id))
+        df = quandl.get(quandl_id, returns="pandas")
+        df.to_pickle(cache_path)
+        print('Cached {} at {}'.format(quandl_id, cache_path))
+    return df
+
+[create_folder(i) for i in [data_dir,datasets_created_python]]

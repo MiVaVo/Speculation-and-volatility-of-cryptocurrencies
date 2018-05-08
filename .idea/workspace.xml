@@ -2,39 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27725c51-6879-4f72-b121-e32d3648d5fa" name="Default" comment="smth">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_from_quandl/BCHARTS-BITSTAMPUSD.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_from_quandl/BCHARTS-COINBASEUSD.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_from_quandl/BCHARTS-ITBITUSD.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_from_quandl/BCHARTS-KRAKENUSD.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_from_quandl/BCHARTS-MTGOXUSD.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/diplom.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/literature/Dynamic Volume-Return Relation of Individual Stocks.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/literature/Price dynamics and speculative trading in bitcoin.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/literature/Volatility estimation for Bitcoin A comparison of GARCH models.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/literature/Volume autocorrelation-information and investor trading.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/~$diplom.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/~WRL1061.tmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addition.r" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/btc_quandl.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/df_prepared_only_btc.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/funcs.R" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/m2.R" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prepare_data_from_scratch.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python_funcs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/total-bitcoins.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Poloniex_data.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/addition.r" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/btc_quandl.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/btc_usd_datasets_new.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/descriptive_stats.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/df_prepared_for_multiple_analysis.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/df_prepared_only_btc.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/df_to_prepare_for_multiple_analysis.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/df_to_regress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/~$diplom.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/~WRL1061.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/m2.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/multivariate_analysis.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prepare_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prepare_data_from_scratch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/univariate_analysis.R" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/crypto_data.py" afterPath="$PROJECT_DIR$/quandl_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.RData" afterPath="$PROJECT_DIR$/.RData" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rhistory" afterPath="$PROJECT_DIR$/.Rhistory" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/console06/INDEX001" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/console06/INDEX001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/source-pane.pper" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/source-pane.pper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/windowlayoutstate.pper" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/windowlayoutstate.pper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/workbench-pane.pper" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/workbench-pane.pper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/sources/prop/INDEX" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/sources/prop/INDEX" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" afterPath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/diplom_in_r.iml" afterPath="$PROJECT_DIR$/.idea/diplom_in_r.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/df_prepared_for_multiple_analysis.csv" afterPath="$PROJECT_DIR$/df_prepared_for_multiple_analysis.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multivariate_analysis.R" afterPath="$PROJECT_DIR$/multivariate_analysis.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepare_data.py" afterPath="$PROJECT_DIR$/prepare_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/univariate_analysis.R" afterPath="$PROJECT_DIR$/univariate_analysis.R" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_funcs.py" afterPath="$PROJECT_DIR$/python_funcs.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,33 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="prepare_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prepare_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="80" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prepare_data_from_scratch.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prepare_data_from_scratch.py">
+      <file leaf-file-name="Poloniex_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Poloniex_data.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crypto_data.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crypto_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -82,11 +53,29 @@
       <file leaf-file-name="python_funcs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_funcs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="20" />
+            <state relative-caret-position="230">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="62" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#63#1615#0" expanded="false" />
+                <element signature="e#581#645#0" expanded="false" />
+                <element signature="e#671#2223#0" expanded="false" />
+                <element signature="e#2414#4576#0" expanded="false" />
+                <element signature="e#4632#4867#0" expanded="false" />
+                <element signature="e#4914#5329#0" expanded="false" />
+                <element signature="e#5371#5660#0" expanded="false" />
+                <element signature="e#5698#6203#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quandl_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quandl_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,7 +95,6 @@
       <find>Vs</find>
       <find>Rs</find>
       <find>#</find>
-      <find>get_json_data</find>
       <find>col</find>
       <find>'name'</find>
       <find>'close'</find>
@@ -120,6 +108,19 @@
       <find>.mean</find>
       <find>btc_usd_datasets_new.to_csv</find>
       <find>pct</find>
+      <find>get_json_data</find>
+      <find>price</find>
+      <find>base_polo_url</find>
+      <find>btc_quandl</find>
+      <find>data_dir</find>
+      <find>get_quandl_data</find>
+      <find>quandl</find>
+      <find>total-bitcoins.csv</find>
+      <find>btc_usd_datasets</find>
+      <find>pediod</find>
+      <find>start_date</find>
+      <find>#####</find>
+      <find>.csv</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,13 +131,15 @@
       <list>
         <option value="$PROJECT_DIR$/prepare_data.py" />
         <option value="$PROJECT_DIR$/prepare_data_from_scratch.py" />
-        <option value="$PROJECT_DIR$/python_funcs.py" />
         <option value="$PROJECT_DIR$/crypto_data.py" />
+        <option value="$PROJECT_DIR$/python_funcs.py" />
+        <option value="$PROJECT_DIR$/Poloniex_data.py" />
+        <option value="$PROJECT_DIR$/quandl_data.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
@@ -214,10 +217,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3542673" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3188406" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15128593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15582451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -242,7 +245,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -251,69 +254,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepare_data_from_scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quandl_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Poloniex_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="74" lean-forward="true" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/descriptive_stats.R">
+    <entry file="file://$PROJECT_DIR$/python_funcs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="952">
+          <caret line="56" column="91" lean-forward="false" selection-start-line="56" selection-start-column="91" selection-end-line="56" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#581#645#0" expanded="false" />
+            <element signature="e#671#2223#0" expanded="false" />
+            <element signature="e#2414#4576#0" expanded="false" />
+            <element signature="e#4632#4867#0" expanded="false" />
+            <element signature="e#4914#5329#0" expanded="false" />
+            <element signature="e#5371#5660#0" expanded="false" />
+            <element signature="e#5698#6203#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prepare_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/descriptive_stats.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepare_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all_work.R" />
-    <entry file="file://$PROJECT_DIR$/descriptive_stats.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all_work.R" />
-    <entry file="file://$PROJECT_DIR$/prepare_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="646">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -332,15 +323,108 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#63#1615#0" expanded="false" />
+            <element signature="e#581#645#0" expanded="false" />
+            <element signature="e#671#2223#0" expanded="false" />
+            <element signature="e#2414#4576#0" expanded="false" />
+            <element signature="e#4632#4867#0" expanded="false" />
+            <element signature="e#4914#5329#0" expanded="false" />
+            <element signature="e#5371#5660#0" expanded="false" />
+            <element signature="e#5698#6203#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crypto_data.py">
+    <entry file="file://$PROJECT_DIR$/quandl_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="1717">
           <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepare_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/descriptive_stats.R" />
+    <entry file="file://$PROJECT_DIR$/prepare_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/descriptive_stats.R" />
+    <entry file="file://$PROJECT_DIR$/prepare_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_work.R" />
+    <entry file="file://$PROJECT_DIR$/descriptive_stats.R" />
+    <entry file="file://$PROJECT_DIR$/all_work.R" />
+    <entry file="file://$PROJECT_DIR$/prepare_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepare_data_from_scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#581#645#0" expanded="false" />
+            <element signature="e#671#2223#0" expanded="false" />
+            <element signature="e#2414#4576#0" expanded="false" />
+            <element signature="e#4632#4867#0" expanded="false" />
+            <element signature="e#4914#5329#0" expanded="false" />
+            <element signature="e#5371#5660#0" expanded="false" />
+            <element signature="e#5698#6203#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quandl_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Poloniex_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
