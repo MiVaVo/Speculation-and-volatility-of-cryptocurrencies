@@ -15,6 +15,7 @@ summary(df)
 crypto_abr=c('BTC','ETH','XRP')
 fits_of_garch=list()
 cor(df[,-1])
+models_all=list()
 # 2. Loop over all currencies and calculate volatility, that was associated with speculative processes
 tsdisplay(y_here)
 for (cryptos in crypto_abr){
@@ -39,7 +40,7 @@ for (cryptos in crypto_abr){
                   distribution.model = "std")
     # 2.4 Fit model with appropriate solvers
     g1fit=ugarchfit(g1,data=y_here,solver='hybrid')
-  
+    models_all<-append(models_all,list(g1fit))
     # 2.5 Prepare dataset for GARCH regression
 
     df_to_reg=cbind(g1fit@fit$sigma,ext_regressor_here)

@@ -297,6 +297,7 @@ rtv1 <- (rt(100000,3,0)-mean(rt(100000,3,0)))/sd(rt(100000,3,0))
 rtv2 <- (rt(100000,4,0)-mean(rt(100000,4,0)))/sd(rt(100000,4,0))
 plot(density(((log_usdrub-mean(log_usdrub))/sd(log_usdrub))), type = "l", main = " ", ylab = "Плотность", xlab = "Доходность",
      lwd = 2, xlim = c(-10,10))
+
 polygon(density(((log_usdrub-mean(log_usdrub))/sd(log_usdrub))), col="grey", border="black")
 lines(density(rnv), lty = 2, col = "red", lwd = 2)
 lines(density(rtv1), lty = 3, col = "blue", lwd = 3)

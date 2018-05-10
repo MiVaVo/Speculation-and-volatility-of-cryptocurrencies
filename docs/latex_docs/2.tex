@@ -1,0 +1,82 @@
+\HeaderA{garch-methods}{Methods for Fitted GARCH Models}{garch.Rdash.methods}
+\aliasA{coef.garch}{garch-methods}{coef.garch}
+\aliasA{fitted.garch}{garch-methods}{fitted.garch}
+\aliasA{logLik.garch}{garch-methods}{logLik.garch}
+\aliasA{plot.garch}{garch-methods}{plot.garch}
+\aliasA{predict.garch}{garch-methods}{predict.garch}
+\aliasA{print.garch}{garch-methods}{print.garch}
+\aliasA{residuals.garch}{garch-methods}{residuals.garch}
+\keyword{models}{garch-methods}
+\keyword{ts}{garch-methods}
+\begin{Description}\relax
+Methods for fitted GARCH model objects.
+\end{Description}
+\begin{Usage}
+\begin{verbatim}
+## S3 method for class 'garch':
+predict(object, newdata, genuine = FALSE, ...)
+## S3 method for class 'garch':
+coef(object, ...)
+## S3 method for class 'garch':
+residuals(object, ...)
+## S3 method for class 'garch':
+fitted(object, ...)
+## S3 method for class 'garch':
+print(x, digits = max(3, getOption("digits") - 3), ...)
+## S3 method for class 'garch':
+plot(x, ask = interactive(), ...)
+## S3 method for class 'garch':
+logLik(object, ...)
+\end{verbatim}
+\end{Usage}
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{object, x}] an object of class \code{"garch"}; usually, a result
+of a call to \code{\LinkA{garch}{garch}}.
+\item[\code{newdata}] a numeric vector or time series to compute GARCH
+predictons.  Defaults to \code{eval(parse(text=object\$series))}.
+\item[\code{genuine}] a logical indicating whether a genuine prediction
+should be made, i.e., a prediction for which there is no target
+observation available.
+\item[\code{digits}] see \code{\LinkA{printCoefmat}{printCoefmat}}.
+\item[\code{ask}] Should the \code{plot} method work interactively?  See
+\code{\LinkA{interactive}{interactive}}.
+\item[\code{...}] further arguments passed to or from other methods.
+\end{ldescription}
+\end{Arguments}
+\begin{Details}\relax
+\code{predict} returns +/- the conditional standard deviation
+predictions from a fitted GARCH model.
+
+\code{coef} returns the coefficient estimates.
+
+\code{residuals} returns the GARCH residuals, i.e., the time series
+used to fit the model divided by the computed conditional standard
+deviation predictions for this series. Under the assumption of
+conditional normality the residual series should be i.i.d. standard
+normal.  
+
+\code{fitted} returns +/- the conditional standard deviation
+predictions for the series which has been used to fit the model.
+
+\code{plot} graphically investigates normality and remaining ARCH
+effects for the residuals.
+
+\code{logLik} returns the log-likelihood value of the GARCH(p, q)
+model represented by \code{object} evaluated at the estimated
+coefficients. It is assumed that first max(p, q) values are fixed.
+\end{Details}
+\begin{Value}
+For \code{predict} a bivariate time series (two-column matrix) of
+predictions. 
+
+For \code{coef}, a numeric vector, for \code{residuals} and
+\code{fitted} a univariate (vector) and a bivariate time series
+(two-column matrix), respectively.
+
+For \code{plot} and \code{print}, the fitted GARCH model object.
+\end{Value}
+\begin{Author}\relax
+A. Trapletti
+\end{Author}
+

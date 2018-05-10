@@ -6,6 +6,7 @@ import quandl
 from python_funcs import *
 import matplotlib.pyplot as plt
 
+
 #### 1. Specify cryprocurrencyes ( excluding bicoin), that will be used in analysis
 altcoins = ['ETH','XRP']
 
