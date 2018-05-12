@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 ############################################ PART 1. Prepare bitcoin pirce and bitcoin volume dataset ##################################
 ##### 1.1. Get data from different exchanges
 exchanges = ['KRAKEN','COINBASE', 'BITSTAMP', 'ITBIT'] #MTGOX
+exchanges=['BITSTAMP']
 # exchanges = [ 'BITSTAMP']
 exchange_data = {}
 for exchange in exchanges:

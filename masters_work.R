@@ -19,10 +19,19 @@ models_all=list()
 # 2. Loop over all currencies and calculate volatility, that was associated with speculative processes
 tsdisplay(y_here)
 for (cryptos in crypto_abr){
+  # cryptos='BTC'
   print(cryptos)
   steping=dim(df)[1]-1
   
   for (i in seq(1,dim(df)[1]-steping,steping)){
+    if (cryptos=='XRP'){
+      garch_mdel=list(model = "csGARCH",# external.regressors = as.matrix(ext_regressor_here),
+           garchOrder = c(1,1))
+    }
+    else{
+      garch_mdel=list(model = "sGARCH",# external.regressors = as.matrix(ext_regressor_here),
+                      garchOrder = c(1,1))
+    }
     dates=df_new[,grepl('date', colnames(df_new))]
     df_new=df[seq(i,i+steping,1),]
     # 2.1 Prepare dep.variable y, that will be used in ARMAX-GARCH model
@@ -32,14 +41,14 @@ for (cryptos in crypto_abr){
     ext_regressor_here=df_new[,grepl(paste('RV_',cryptos,sep=''), colnames(df_new))]
 
     # 2.3 Describe ARMAX(1,1)-GARCH(1,1) model
-    g1=ugarchspec(variance.model = list(model = "sGARCH", external.regressors = as.matrix(ext_regressor_here),
-                                        garchOrder = c(1,1)),
-                  mean.model  = list(armaOrder = c(1,1), external.regressors = as.matrix(ext_regressor_here),
+    g1=ugarchspec(variance.model = garch_mdel,
+                  mean.model  = list(armaOrder = c(1,0), external.regressors = as.matrix(ext_regressor_here),
                                      include.mean = TRUE),
                   # mean.model  = list(external.regressors = as.matrix(df_new[,c(2)])), 
                   distribution.model = "std")
     # 2.4 Fit model with appropriate solvers
     g1fit=ugarchfit(g1,data=y_here,solver='hybrid')
+    list.save(g1fit, file = paste('saved_models/',paste(cryptos,'GARCH_model.rds',sep='_'),sep=''))
     models_all<-append(models_all,list(g1fit))
     # 2.5 Prepare dataset for GARCH regression
 

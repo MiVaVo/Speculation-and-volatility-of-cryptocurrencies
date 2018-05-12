@@ -4,15 +4,35 @@ library(timeSeries)
 library(tseries)
 library(xts)
 library(lmtest)
+library(ggplot2)
 library(rugarch)
 source('funcs.R')
+library(reshape2)
+install.packages("devtools")
+library(devtools)
+install_github("easyGgplot2", "kassambara")
+library(easyGgplot2)
 
 # 1. Prepare overall data
 df=read.csv('datasets_created_python/merged_all.csv')
 df$date=as.POSIXct(as.Date(df$date))
-
+#########################  2. plot distributions of returns
+melt(df, id.vars=c("date"))
+df_R=df[sapply( colnames(df) ,function(i)(grepl('R_' , i) || grepl('date' , i) ))]
+plot_obj=ggplot2.density(data=melt(df_R, id.vars=c("date")), xName='value', groupName='variable',
+                # legendPosition="top",
+                alpha=0.5, fillGroupDensity=TRUE)+stat_function(fun = custom)+
+                xlab("Значение доходности") +theme(plot.title = element_text(hjust = 0.75))+ 
+                  ylab("Плотность")
+plot_obj=plot_obj+xlim(-0.25,0.25)
+plot_obj=plot_obj+ guides(fill = guide_legend(title = "Криптовалюты", title.position = "left"))+
+  scale_fill_discrete(labels=c("Bitcoin", "Ethereum", "Ripple"))+ ggtitle("Плотности распределения доходности криптовалют")+
+  theme(plot.title = element_text(hjust = 0.5))
+plot_obj
+# 3. plot distributions
 ######################### 1. Visualize returns
-
+btc_eth_xrp_garch=lapply(c('BTC','ETH','XRP'),function(cryptos) (load(paste('saved_models/',paste(cryptos,'GARCH_model.rds',sep='_'),sep=''))))
+plot(btc_eth_xrp_garch[[1]],which='all')
 redtrans = rgb(255, 0, 0, 225, maxColorValue=255) 
 greentrans=rgb(0, 255, 0, 225, maxColorValue=255) 
 bluetrans=rgb(0, 0, 255, 225, maxColorValue=255) 
