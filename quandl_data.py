@@ -75,7 +75,7 @@ btc_quandl=prepare_df_v2(btc_usd_datasets_new,
                          price_name='price',
                          crypto_name='name',
                          date_name='date',
-                         turnover_name='turnover')
+                         turnover_name='turnover',trend_lasts=20)
 list(btc_quandl)
 
 ##### 2.5. Write this ready dataframe to csv

@@ -32,7 +32,7 @@ merged.columns=['close','volume','name','date']
 #### 6. Drop missing values (there is not much of them, namely 6. To prove you can use : merged.isnull().sum() )
 merged.isnull().sum()
 merged=merged.dropna()
-altcoins=prepare_df_v2(merged).reset_index()
+altcoins=prepare_df_v2(merged,trend_lasts=20).reset_index()
 
 #### 7. Merge Bitcoin dataset, aquired from Quandl, with Poloniex altcoins
 bitcoin=pd.read_csv(datasets_created_python+'/'+'btc_quandl.csv',index_col=0).reset_index()

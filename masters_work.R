@@ -14,6 +14,7 @@ df=df[seq(51,dim(df)[1],1),]
 summary(df)
 crypto_abr=c('BTC','ETH','XRP')
 fits_of_garch=list()
+fits_of_garch_better=list()
 cor(df[,-1])
 models_all=list()
 # 2. Loop over all currencies and calculate volatility, that was associated with speculative processes
@@ -48,8 +49,8 @@ for (cryptos in crypto_abr){
                   distribution.model = "std")
     # 2.4 Fit model with appropriate solvers
     g1fit=ugarchfit(g1,data=y_here,solver='hybrid')
-    list.save(g1fit, file = paste('saved_models/',paste(cryptos,'GARCH_model.rds',sep='_'),sep=''))
-    models_all<-append(models_all,list(g1fit))
+    
+    models_all[[cryptos]]<-list(g1fit)
     # 2.5 Prepare dataset for GARCH regression
 
     df_to_reg=cbind(g1fit@fit$sigma,ext_regressor_here)
@@ -60,14 +61,18 @@ for (cryptos in crypto_abr){
     # as described in 'Blau M. Price dynamics and speculative trading in bitcoinBenjamin,2017'
     # and is based on 'Guillermo L. Dynamic Volume-Return Relation of Individual Stocks,2000'
     
-    m1<-lm(df_to_reg[,1]~df_to_reg[,2],data = df_to_reg)
+    m1<-lm(log(df_to_reg[,1])~df_to_reg[,2],data = df_to_reg)
     print(summary(m1))
 
     # 2.7 Save volatility of a given cryptocyrrency, that is associated (caused by) with speculation
     fits_of_garch=append(fits_of_garch,list(m1$fitted.values))
-    
+    fits_of_garch_better[[cryptos]]<-list(m1$fitted.values)
   }
 }
+# save(g1fit, file = paste('saved_models/',paste(cryptos,'GARCH_model.rds',sep='_'),sep=''))
+save(models_all, file = paste('saved_models/','GARCH_model.rds',sep=''))
+save(fits_of_garch_better, file = paste('saved_models/','fits_of_garch_better.rds',sep=''))
+
 # 3 . Conduct Granger casuality test to test the H0, which is as follows:
 # Volatility, associated  with speculative processes on cryptocurrency X cause ( based on granger test)
 # speculative volatility on cryptocurrency Y, where X and Y are currencies from c('BTC','ETH','XRP')
@@ -75,6 +80,8 @@ for (cryptos in crypto_abr){
 grangertest(log(unlist(fits_of_garch[2])) ~ log(unlist(fits_of_garch[1])), order = 3) #0.194 H0 rejected #0.16
 # 3.2. ETH -> BTC
 grangertest(log(unlist(fits_of_garch[1])) ~ log(unlist(fits_of_garch[2])), order = 3) #0.001692 ** H0 not rejected  0.001936 **
+grangertest(unlist(fits_of_garch[1]) ~ unlist(fits_of_garch[2]), order = 3) #0.001692 ** H0 not rejected  0.001936 **
+
 # 3.3. BTC -> XRP
 grangertest(log(unlist(fits_of_garch[3])) ~ log(unlist(fits_of_garch[1])), order = 3) #0.8227 H0 rejected
 # 3.4. XRP -> BTC
