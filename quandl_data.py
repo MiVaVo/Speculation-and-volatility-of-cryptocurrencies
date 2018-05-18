@@ -107,19 +107,19 @@ df_to_regress.to_csv(datasets_created_python+'/'+'df_to_regress.csv',header=True
 # btc_usd_datasets_new.to_csv('btc_usd_datasets_new.csv',header=True,index=False)
 #
 ######################################### tests
-btc_quandl1=prepare_df_v2(btc_usd_datasets_new,
-                         price_name='price',
-                         crypto_name='name',
-                         date_name='date',
-                         turnover_name='turnover',trend_lasts=20)
-btc_quandl1[['RV_Bitcoin']].plot()
-list(btc_quandl1)
-btc_quandl2=prepare_df_v2(btc_usd_datasets_new,
-                         price_name='price',
-                         crypto_name='name',
-                         date_name='date',
-                         turnover_name='turnover',trend_lasts=50)
-btc_quandl2[['V_Bitcoin']].plot()
-
-btc_usd_datasets_new[['turnover']].plot()
-btc_quandl2[['R_Bitcoin']].plot()
+# btc_quandl1=prepare_df_v2(btc_usd_datasets_new,
+#                          price_name='price',
+#                          crypto_name='name',
+#                          date_name='date',
+#                          turnover_name='turnover',trend_lasts=20)
+# btc_quandl1[['RV_Bitcoin']].plot()
+# list(btc_quandl1)
+# btc_quandl2=prepare_df_v2(btc_usd_datasets_new,
+#                          price_name='price',
+#                          crypto_name='name',
+#                          date_name='date',
+#                          turnover_name='turnover',trend_lasts=50)
+# btc_quandl2[['V_Bitcoin']].plot()
+#
+# btc_usd_datasets_new[['turnover']].plot()
+# btc_quandl2[['R_Bitcoin']].plot()

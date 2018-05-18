@@ -1,32 +1,26 @@
-library(forecast)
-library(quantmod)
-library(timeSeries)
-library(tseries)
-library(xts)
-library(lmtest)
-library(rugarch)
-library(rmsfuns)
-library(xtable)
+# library(forecast)
+# library(quantmod)
+# library(timeSeries)
+# library(tseries)
+# library(xts)
+# library(lmtest)
+# library(rugarch)
 source('funcs.R')
-library(stargazer)
+# library(stargazer)
 # install.packages('rmsfuns')
 library(rmsfuns)
 install.packages('rlang')
 load_pkg("xtable")
-for (i in c("devtools", "xtable","rugarch", "forecast", "tidyr", "tbl2xts", "lubridate", "readr", "PerformanceAnalytics", "ggplot2", "dplyr", "ggthemes")){
-  tryCatch({
-    do.call("library", list(i)) 
-  }, warning = function(e) {
-    install.packages(i)
-    do.call("library", list(i)) 
-  }, error = function(e) {
-    install.packages(i)
-    do.call("library", list(i)) 
-  }, finally = {
-    print(i)
-    do.call("library", list(i)) 
-  })
-}
+library(rmsfuns)
+library(xtable)
+
+install_and_load_packages(c("devtools",'quantmod','timeSeries','xts', 'lmtest',"xtable","rugarch", "forecast",
+                            "tidyr", "tbl2xts", "lubridate", "readr",
+                            "PerformanceAnalytics", 
+                            "ggplot2", "dplyr",'rmsfuns',
+                            "ggthemes",
+                            'stargazer'))
+
 
 # 1. Prepare overall data
 df=read.csv('datasets_created_python/merged_all.csv')

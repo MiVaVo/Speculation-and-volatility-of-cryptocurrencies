@@ -33,8 +33,9 @@ for (cryptos in crypto_abr){
       garch_mdel=list(model = "sGARCH", #external.regressors = as.matrix(ext_regressor_here),
                       garchOrder = c(1,1))
     }
-    dates=df_new[,grepl('date', colnames(df_new))]
     df_new=df[seq(i,i+steping,1),]
+    dates=df_new[,grepl('date', colnames(df_new))]
+    
     # 2.1 Prepare dep.variable y, that will be used in ARMAX-GARCH model
     y_here=df_new[,grepl(paste('R_',cryptos,sep=''), colnames(df_new)) | grepl('date', colnames(df_new)) ]
     y_here <- xts(y_here[,-1], order.by=as.POSIXct(y_here$date))

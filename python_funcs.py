@@ -154,3 +154,17 @@ def get_quandl_data(quandl_id):
     return df
 
 [create_folder(i) for i in [data_dir,datasets_created_python]]
+
+import os, fnmatch
+def find(pattern, path):
+    result = []
+    for root, dirs, files in os.walk(path):
+        for name in files:
+            if pattern in name:
+            # if fnmatch.fnmatch(name, pattern):
+                result.append(os.path.join(root, name))
+                print(os.path.join(root, name))
+
+    return result
+
+find('BidWord', '/')

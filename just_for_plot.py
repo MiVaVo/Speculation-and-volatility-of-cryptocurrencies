@@ -78,7 +78,7 @@ btc_quandl=prepare_df_v2(btc_usd_datasets_new,
 
 data_for_spec=pd.merge(btc_quandl.reset_index(),btc_usd_datasets.reset_index(),on='date')
 df_price_and_spec=data_for_spec[['date','RV_Bitcoin','price','R_Bitcoin']]
-df_price_and_spec=df_price_and_spec.iloc[1200:,:]
+df_price_and_spec=df_price_and_spec.iloc[2000:,:]
 
 
 df_price_and_spec.columns=['Дата','Спекулятивная переменная для Bitcoin','Курс Bitcoin','Дневная доходность Bitcoin']

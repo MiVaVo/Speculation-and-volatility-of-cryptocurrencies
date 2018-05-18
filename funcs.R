@@ -30,6 +30,23 @@ ARIMA_GARCH_optimizer <- function(p_range, q_range,P_range,Q_range,ext_regress,y
   return(seq_of_res)
 }
 
+install_and_load_packages<-function(sequence_pf_pk){
+  for (i in sequence_pf_pk ){
+    tryCatch({
+      do.call("library", list(i)) 
+    }, warning = function(e) {
+      install.packages(i)
+      do.call("library", list(i)) 
+    }, error = function(e) {
+      install.packages(i)
+      do.call("library", list(i)) 
+    }, finally = {
+      print(i)
+      do.call("library", list(i)) 
+    })
+  }
+}
+
 multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
   library(grid)
   
@@ -168,3 +185,19 @@ plot_10_chart = function(x,name, ...)
   }
   grid()
 }
+
+make_latex_table_with_robust_coeffs<-function(list_of_models,
+                                              model_names_in_seq){
+  require('lmtest')
+  require('sandwich')
+  list_of_models_with_robus_se=lapply(list_of_models,function(i) coeftest(i,df = Inf, vcov = vcovHAC))
+  texreg(list_of_models,
+         # caption="The Importance of Clustering Standard Errors",
+         dcolumn=FALSE,
+         # model.names=model_names_in_seq,
+         custom.model.names=model_names_in_seq,
+         
+         override.se=lapply(list_of_models_with_robus_se,function(i) i[,2] ),
+         override.pval=lapply(list_of_models_with_robus_se,function(i) i[,4] ))
+}
+
