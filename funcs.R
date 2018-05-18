@@ -66,7 +66,7 @@ multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
   }
 }
 
-par(mar=c(4.1,4.1,3.1,2.1),mfrow=c(3,1))
+# par(mar=c(4.1,4.1,3.1,2.1),mfrow=c(3,1))
 plot_1_chart <- function(x,name){
   # name='BTC'
   vmodel  = x@model$modeldesc$vmodel
@@ -90,7 +90,10 @@ plot_1_chart <- function(x,name){
   grid()
 }
 
+# plot_8_chart(x,name)
 plot_8_chart<-function(x,name,...){
+  # x=models_all[[name]][[1]]
+  # name='XRP'
   vmodel  = x@model$modeldesc$vmodel
   zseries = as.numeric(residuals(x, standardize=TRUE))
   distribution = x@model$modeldesc$distribution
@@ -131,6 +134,7 @@ plot_8_chart<-function(x,name,...){
 }
 
 plot_9_chart<-function(x,name,...){
+
   vmodel  = x@model$modeldesc$vmodel
   zseries = as.numeric(residuals(x, standardize=TRUE))
   qqnorm(zseries, pch = 1, frame = FALSE,main = paste('QQ-граифик, t-распределение',name,sep=','))
@@ -139,6 +143,7 @@ plot_9_chart<-function(x,name,...){
 
 plot_10_chart = function(x,name, ...)
 {
+
   vmodel  = x@model$modeldesc$vmodel
   zseries = as.numeric(residuals(x, standardize=TRUE))
   zseries[is.na(zseries)] = 0

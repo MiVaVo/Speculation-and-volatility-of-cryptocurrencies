@@ -5,17 +5,18 @@ library(tseries)
 library(xts)
 library(lmtest)
 library(ggplot2)
+
 library(rugarch)
 source('funcs.R')
 library(psych)
 
 library(reshape2)
+#install.packages('tibble')
 # install.packages("devtools")
 library(devtools)
 # install_github("easyGgplot2", "kassambara")
 # install.packages("PerformanceAnalytics")
-library("PerformanceAnalytics")
-library(easyGgplot2)
+
 load(paste('saved_models/','GARCH_model.rds',sep=''))
 # plot(models_all[['BTC']][[1]],which='all')
 crypto_abr=c('BTC','ETH','XRP')
@@ -24,8 +25,13 @@ df=read.csv('datasets_created_python/merged_all.csv')
 df$date=as.POSIXct(as.Date(df$date))
 df=df[seq(51,dim(df)[1],1),]
 #########################  2. plot distributions of returns
+library(easyGgplot2)
 sas=melt(df, id.vars=c("date"))
 df_R=df[sapply( colnames(df) ,function(i)(grepl('R_' , i) || grepl('date' , i) ))]
+# for (i in seq(2,3,4)){
+#   df_R[,i]=(df_R[,i]-mean(df_R[,i]))/sd(df_R[,i])
+#   
+# }
 plot_obj=ggplot2.density(data=melt(df_R, id.vars=c("date")), xName='value', groupName='variable',
                 # legendPosition="top",
                 alpha=0.5, fillGroupDensity=TRUE)+
@@ -35,7 +41,8 @@ plot_obj=ggplot2.density(data=melt(df_R, id.vars=c("date")), xName='value', grou
 
 plot_obj=plot_obj+xlim(-0.25,0.25)
 plot_obj=plot_obj+ guides(fill = guide_legend(title = "Криптовалюты", title.position = "left"))+
-  scale_fill_discrete(labels=c("Bitcoin", "Ethereum", "Ripple"))+ ggtitle("Плотности распределения доходности криптовалют")+
+  scale_fill_discrete(labels=c("Bitcoin", "Ethereum", "Ripple"))+ 
+  # ggtitle("Плотности распределения доходности криптовалют")+
   theme(plot.title = element_text(hjust = 0.5))
 plot_obj
 #########################  3. Plot R,RV, sigma
@@ -94,6 +101,8 @@ for (crypto in crypto_abr){
 }
 multiplot(list_of_plots[[1]],list_of_plots[[2]],list_of_plots[[3]] ,cols=1)
 #########################  4.Plot cross corelation of volatility
+library("PerformanceAnalytics")
+
 load(paste('saved_models/','fits_of_garch_better.rds',sep=''))
 df_fitted_sigma=sapply(fits_of_garch_better ,function(i)(unlist(i)))
 chart.Correlation(df_fitted_sigma, histogram=TRUE)
@@ -110,6 +119,14 @@ for (crypto in crypto_abr){
   plot_8_chart(models_all[[crypto]][[1]],name=crypto)
   plot_10_chart(models_all[[crypto]][[1]],name=crypto)
 }
+for (crypto in crypto_abr){
+  print(models_all[[crypto]][[1]])
+  print('--------------------------------------------------------------------------------------------------')
+}
+
+
+
+
 #########################  6.make table with p-values 
 # TODO: make table with p-values 
 

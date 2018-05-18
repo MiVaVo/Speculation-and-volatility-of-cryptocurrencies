@@ -18,7 +18,7 @@ for exchange in exchanges:
     exchange_code = 'BCHARTS/{}USD'.format(exchange)
     btc_exchange_df = get_quandl_data(exchange_code)
     exchange_data[exchange] = btc_exchange_df
-
+btc_exchange_df.T.columns
 ##### 1.2. Merge data from different exchanges
 btc_usd_datasets_price = merge_dfs_on_column(list(exchange_data.values()), list(exchange_data.keys()), 'Weighted Price')
 btc_usd_datasets_volume = merge_dfs_on_column(list(exchange_data.values()), list(exchange_data.keys()), 'Volume (BTC)')
@@ -63,7 +63,7 @@ btc_usd_datasets_new=pd.merge(btc_usd_datasets,bts_outst_int,how='left',on='date
 btc_usd_datasets_new.head()
 
 ##### 2.3. Add turnover rate to total dataset
-btc_usd_datasets_new['turnover']=btc_usd_datasets_new['volume']/btc_usd_datasets_new['btc_tot']
+btc_usd_datasets_new['turnover']=btc_usd_datasets_new['volume']
 btc_usd_datasets_new[np.any(btc_usd_datasets_new.isnull(),axis=1)]
 btc_usd_datasets_new=btc_usd_datasets_new.dropna() ############################### !!!!!!!!!!!!
 # btc_usd_datasets_new['turnover'].plot()
@@ -106,3 +106,20 @@ df_to_regress.to_csv(datasets_created_python+'/'+'df_to_regress.csv',header=True
 # btc_usd_datasets_new=btc_usd_datasets_new[['date', 'close', 'name', 'volume']]
 # btc_usd_datasets_new.to_csv('btc_usd_datasets_new.csv',header=True,index=False)
 #
+######################################### tests
+btc_quandl1=prepare_df_v2(btc_usd_datasets_new,
+                         price_name='price',
+                         crypto_name='name',
+                         date_name='date',
+                         turnover_name='turnover',trend_lasts=20)
+btc_quandl1[['RV_Bitcoin']].plot()
+list(btc_quandl1)
+btc_quandl2=prepare_df_v2(btc_usd_datasets_new,
+                         price_name='price',
+                         crypto_name='name',
+                         date_name='date',
+                         turnover_name='turnover',trend_lasts=50)
+btc_quandl2[['V_Bitcoin']].plot()
+
+btc_usd_datasets_new[['turnover']].plot()
+btc_quandl2[['R_Bitcoin']].plot()

@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27725c51-6879-4f72-b121-e32d3648d5fa" name="Default" comment="smth">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saved_models/BTC_GARCH_model.rds" afterPath="$PROJECT_DIR$/saved_models/BTC_GARCH_model.rds" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saved_models/XRP_GARCH_model.rds" afterPath="$PROJECT_DIR$/saved_models/XRP_GARCH_model.rds" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/just_for_plot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/diplom_v1.docx" afterPath="$PROJECT_DIR$/docs/diplom_v1.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saved_models/GARCH_model.rds" afterPath="$PROJECT_DIR$/saved_models/GARCH_model.rds" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saved_models/fits_of_garch_better.rds" afterPath="$PROJECT_DIR$/saved_models/fits_of_garch_better.rds" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rhistory" afterPath="$PROJECT_DIR$/.Rhistory" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/console06/INDEX001" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/console06/INDEX001" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/source-pane.pper" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/source-pane.pper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/windowlayoutstate.pper" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/windowlayoutstate.pper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/workbench-pane.pper" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/workbench-pane.pper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/sources/prop/INDEX" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/sources/prop/INDEX" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" afterPath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Poloniex_data.py" afterPath="$PROJECT_DIR$/Poloniex_data.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets_created_python/btc_quandl.csv" afterPath="$PROJECT_DIR$/datasets_created_python/btc_quandl.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets_created_python/df_to_regress.csv" afterPath="$PROJECT_DIR$/datasets_created_python/df_to_regress.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets_created_python/merged_all.csv" afterPath="$PROJECT_DIR$/datasets_created_python/merged_all.csv" />
@@ -27,31 +31,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="poloniex_data.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="poloniex_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poloniex_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="31" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="python_funcs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_funcs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="78" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#581#645#0" expanded="false" />
-                <element signature="e#671#2223#0" expanded="false" />
-                <element signature="e#4632#4867#0" expanded="false" />
-                <element signature="e#4914#5329#0" expanded="false" />
-                <element signature="e#5371#5660#0" expanded="false" />
-                <element signature="e#5698#6203#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -60,8 +46,20 @@
       <file leaf-file-name="quandl_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quandl_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="75" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="70" column="81" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="just_for_plot.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/just_for_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="94" column="9" lean-forward="false" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -87,7 +85,6 @@
       <find>'close'</find>
       <find>'volume'</find>
       <find>'date'</find>
-      <find>trend_lasts</find>
       <find>plot(</find>
       <find>null</find>
       <find>na</find>
@@ -110,6 +107,7 @@
       <find>.csv</find>
       <find>prepare_df</find>
       <find>prepare_df_v2</find>
+      <find>trend_lasts</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,6 +121,7 @@
         <option value="$PROJECT_DIR$/crypto_data.py" />
         <option value="$PROJECT_DIR$/python_funcs.py" />
         <option value="$PROJECT_DIR$/Poloniex_data.py" />
+        <option value="$PROJECT_DIR$/just_for_plot.py" />
         <option value="$PROJECT_DIR$/quandl_data.py" />
         <option value="$PROJECT_DIR$/poloniex_data.py" />
       </list>
@@ -148,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -160,7 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,26 +202,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17397882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3188406" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38808373" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16490166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1376702" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52904236" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -236,11 +234,155 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+            <element signature="e#581#645#0" expanded="false" />
+            <element signature="e#671#2223#0" expanded="false" />
+            <element signature="e#4632#4867#0" expanded="false" />
+            <element signature="e#4914#5329#0" expanded="false" />
+            <element signature="e#5371#5660#0" expanded="false" />
+            <element signature="e#5698#6203#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quandl_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="110" column="44" lean-forward="true" selection-start-line="110" selection-start-column="44" selection-end-line="110" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+            <element signature="e#581#645#0" expanded="false" />
+            <element signature="e#671#2223#0" expanded="false" />
+            <element signature="e#4632#4867#0" expanded="false" />
+            <element signature="e#4914#5329#0" expanded="false" />
+            <element signature="e#5371#5660#0" expanded="false" />
+            <element signature="e#5698#6203#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quandl_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+            <element signature="e#581#645#0" expanded="false" />
+            <element signature="e#671#2223#0" expanded="false" />
+            <element signature="e#4632#4867#0" expanded="false" />
+            <element signature="e#4914#5329#0" expanded="false" />
+            <element signature="e#5371#5660#0" expanded="false" />
+            <element signature="e#5698#6203#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quandl_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="75" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+            <element signature="e#581#645#0" expanded="false" />
+            <element signature="e#671#2223#0" expanded="false" />
+            <element signature="e#4632#4867#0" expanded="false" />
+            <element signature="e#4914#5329#0" expanded="false" />
+            <element signature="e#5371#5660#0" expanded="false" />
+            <element signature="e#5698#6203#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quandl_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="75" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/poloniex_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -256,7 +398,7 @@
         <state relative-caret-position="119">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
             <element signature="e#581#645#0" expanded="false" />
             <element signature="e#671#2223#0" expanded="false" />
             <element signature="e#4632#4867#0" expanded="false" />
@@ -292,7 +434,7 @@
         <state relative-caret-position="476">
           <caret line="141" column="12" lean-forward="false" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
             <element signature="e#581#645#0" expanded="false" />
             <element signature="e#671#2223#0" expanded="false" />
             <element signature="e#4632#4867#0" expanded="false" />
@@ -328,7 +470,7 @@
         <state relative-caret-position="204">
           <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="62" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
             <element signature="e#581#645#0" expanded="false" />
             <element signature="e#671#2223#0" expanded="false" />
             <element signature="e#4632#4867#0" expanded="false" />
@@ -364,7 +506,7 @@
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="62" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
             <element signature="e#581#645#0" expanded="false" />
             <element signature="e#671#2223#0" expanded="false" />
             <element signature="e#4632#4867#0" expanded="false" />
@@ -412,7 +554,7 @@
         <state relative-caret-position="952">
           <caret line="56" column="91" lean-forward="false" selection-start-line="56" selection-start-column="91" selection-end-line="56" selection-end-column="91" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
             <element signature="e#581#645#0" expanded="false" />
             <element signature="e#671#2223#0" expanded="false" />
             <element signature="e#4632#4867#0" expanded="false" />
@@ -430,7 +572,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="20" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
             <element signature="e#581#645#0" expanded="false" />
             <element signature="e#671#2223#0" expanded="false" />
             <element signature="e#4632#4867#0" expanded="false" />
@@ -470,10 +612,10 @@
     <entry file="file://$PROJECT_DIR$/prepare_data_from_scratch.py" />
     <entry file="file://$PROJECT_DIR$/python_funcs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="78" />
+        <state relative-caret-position="255">
+          <caret line="93" column="66" lean-forward="false" selection-start-line="93" selection-start-column="59" selection-end-line="93" selection-end-column="66" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
             <element signature="e#581#645#0" expanded="false" />
             <element signature="e#671#2223#0" expanded="false" />
             <element signature="e#4632#4867#0" expanded="false" />
@@ -484,20 +626,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
+    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="75" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
+    <entry file="file://$PROJECT_DIR$/quandl_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="70" column="81" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/just_for_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="94" column="9" lean-forward="false" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

@@ -27,7 +27,7 @@ for (cryptos in crypto_abr){
   for (i in seq(1,dim(df)[1]-steping,steping)){
     if (cryptos=='XRP'){
       garch_mdel=list(model = "csGARCH",# external.regressors = as.matrix(ext_regressor_here),
-           garchOrder = c(1,1))
+                      garchOrder = c(1,1))
     }
     else{
       garch_mdel=list(model = "sGARCH", #external.regressors = as.matrix(ext_regressor_here),
@@ -40,7 +40,7 @@ for (cryptos in crypto_abr){
     y_here <- xts(y_here[,-1], order.by=as.POSIXct(y_here$date))
     # 2.2 Prepare exogenious variable, that will be used in ARMAX part of ARMAX-GARCH model
     ext_regressor_here=df_new[,grepl(paste('RV_',cryptos,sep=''), colnames(df_new))]
-    # ext_regressor_here=abs(ext_regressor_here)*abs(ext_regressor_here)
+    ext_regressor_here=abs(ext_regressor_here)
     # 2.3 Describe ARMAX(1,1)-GARCH(1,1) model
     g1=ugarchspec(variance.model = garch_mdel,
                   mean.model  = list(armaOrder = c(1,0), external.regressors = as.matrix(ext_regressor_here),
@@ -52,7 +52,7 @@ for (cryptos in crypto_abr){
     
     models_all[[cryptos]]<-list(g1fit)
     # 2.5 Prepare dataset for GARCH regression
-
+    
     df_to_reg=cbind(g1fit@fit$sigma,ext_regressor_here)
     colnames(df_to_reg)=c(paste('sigma_',cryptos,sep=''),paste('RV_',cryptos,sep=''))
     df_to_reg=as.data.frame(df_to_reg)
@@ -60,12 +60,17 @@ for (cryptos in crypto_abr){
     # 2.6 Fit regression model GARCH(1,1)~b0+b1*Speculation , where Speculation is the measure of speculation
     # as described in 'Blau M. Price dynamics and speculative trading in bitcoinBenjamin,2017'
     # and is based on 'Guillermo L. Dynamic Volume-Return Relation of Individual Stocks,2000'
-    
-    m1<-lm(df_to_reg[,1]~c(0,df_to_reg[-dim(df_to_reg)[1],2]),data = df_to_reg)
+    df_regression=df_new[,grepl('RV_', colnames(df_new))]
+    # df_regression=df_regression*df_regression
+    df_regression=abs(df_regression)
+    m1<-lm(df_to_reg[,1]~c(0,df_regression[-dim(df_regression)[1],1])+
+             c(0,df_regression[-dim(df_regression)[1],2])+
+             c(0,df_regression[-dim(df_regression)[1],3]),data = df_to_reg)
+    # cor(c(0,df_regression[-dim(df_to_reg)[1],1]),c(0,df_regression[-dim(df_to_reg)[1],2]))
     # windows()
     # plot(df_to_reg[,1])
     print(summary(m1))
-
+    
     # 2.7 Save volatility of a given cryptocyrrency, that is associated (caused by) with speculation
     fits_of_garch=append(fits_of_garch,list(m1$fitted.values))
     # fits_of_garch=append(fits_of_garch,list(g1fit@fit$sigma))
@@ -86,12 +91,12 @@ grangertest(unlist(fits_of_garch[1]) ~ unlist(fits_of_garch[2]), order = 3) #0.0
 grangertest(unlist(fits_of_garch[1]) ~ unlist(fits_of_garch[2]), order = 1) #0.001692 ** H0 not rejected  0.001936 **
 
 # 3.3. BTC -> XRP
-grangertest(unlist(fits_of_garch[3]) ~ unlist(fits_of_garch[1]), order = 5) #0.8227 H0 rejected
+grangertest(unlist(fits_of_garch[3]) ~ unlist(fits_of_garch[1]), order = 2) #0.8227 H0 rejected
 # 3.4. XRP -> BTC
 grangertest(unlist(fits_of_garch[1]) ~ unlist(fits_of_garch[3]), order = 3) #0.8551 H0 rejected
 
 # 3.3. ETH -> XRP
-grangertest(unlist(fits_of_garch[3]) ~ unlist(fits_of_garch[2]), order = 3) #0.03617 * H0 not rejected
+grangertest(unlist(fits_of_garch[3]) ~ unlist(fits_of_garch[2]), order = 2) #0.03617 * H0 not rejected
 # 3.4. XRP -> ETH
-grangertest(unlist(fits_of_garch[2]) ~ unlist(fits_of_garch[3]), order = 1) # 0.6793 H0 rejected
+grangertest(unlist(fits_of_garch[2]) ~ unlist(fits_of_garch[3]), order = 2) # 0.6793 H0 rejected
 
