@@ -27,7 +27,7 @@ Fitted (cleaned from  noise)  volatilies, that are further used for inference.
 As it can be seen coefficients behind XRP are all significant, which indicates, that it's volatility have very high correlation with speculative processes on other two pairs, but reverse is not true.
 
 ### Setimated coefficients of logistic regression of speculative trade on volatility  of each pair.
-Prediction of the probability of volatility bieng in max 10&.
+Prediction of the probability of volatility bieng in max 10%.
 ![4](https://user-images.githubusercontent.com/21066491/45515184-19d02a80-b7b0-11e8-9513-a04ef85d96b6.png)
 
 ROC-AUC plot, volatility on XRP is highly influence by speculations on other two markets.
