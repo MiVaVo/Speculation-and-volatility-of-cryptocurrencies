@@ -22,12 +22,12 @@ Some concepts steps are derived from paper "Blau B. Price dynamics and speculati
 Fitted (cleaned from  noise)  volatilies, that are further used for inference.
 ![6](https://user-images.githubusercontent.com/21066491/45515882-20f83800-b7b2-11e8-9ebe-f8d7b7101bbe.png)
 
-### Setimated coefficients of regression of speculative trade on volatility of each pair
+### Estimated coefficients of regression of speculative trade on volatility of each pair
 ![3](https://user-images.githubusercontent.com/21066491/45515180-16d53a00-b7b0-11e8-931d-2c1420d0b40e.png)
 
 As it can be seen coefficients behind XRP are all significant, which indicates, that it's volatility have very high correlation with speculative processes on other two pairs, but reverse is not true.
 
-### Setimated coefficients of logistic regression of speculative trade on volatility  of each pair.
+### Estimated coefficients of logistic regression of speculative trade on volatility  of each pair.
 Prediction of the probability of volatility bieng in max 10%.
 ![4](https://user-images.githubusercontent.com/21066491/45515184-19d02a80-b7b0-11e8-9513-a04ef85d96b6.png)
 
