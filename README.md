@@ -12,9 +12,14 @@ Main approach:
 3) Treat fitted values as the measure of speculative process
 4) Fit regression and classification model to predict volatility and top 10% of volatility based on regressors, that represent speculative trade( speculative regressors)
 
+Some concepts steps are derived from paper "Blau B. Price dynamics and speculative trading in Bitcoin // Research in International Business and Finance, Vol. 43, January 2018. pp. 15-21.",but instead I use multivariate analysis for estimation of speculative processes. 
+
 ## Estimation results
 ### Best volatily models for each crypto based on AIC 
 ![1](https://user-images.githubusercontent.com/21066491/45515164-0cb33b80-b7b0-11e8-8497-297cce29f0ca.png)
+
+Fitted (cleaned from  noise)  volatilies, that are further used for inference.
+![6](https://user-images.githubusercontent.com/21066491/45515882-20f83800-b7b2-11e8-9ebe-f8d7b7101bbe.png)
 
 ### Setimated coefficients of regression of speculative trade on volatility of each pair
 ![3](https://user-images.githubusercontent.com/21066491/45515180-16d53a00-b7b0-11e8-931d-2c1420d0b40e.png)
