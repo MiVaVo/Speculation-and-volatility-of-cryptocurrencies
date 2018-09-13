@@ -1,3 +1,3 @@
-# diplom_in_R
+# Code for my master's degree paper "Modeling of speculative processes in the cryptocurrency market"
 Master's degree paper in R and Python
-Modeling of speculative processes in the crypto currency market 
+
