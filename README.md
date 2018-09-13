@@ -10,10 +10,20 @@ Main approach:
 2) Clear it from noise 
 3) Define the speculative regressors for each pair as the product of trade volume multiplied by difference in prices
 3) Treat fitted values as the measure of speculative process
-4) Fit regression and classification model to predict volatility based on regressors, that represent speculative trade( speculative regressors)
+4) Fit regression and classification model to predict volatility and top 10% of volatility based on regressors, that represent speculative trade( speculative regressors)
 
 ## Estimation results
 ### Best volatily models for each crypto based on AIC 
 ![1](https://user-images.githubusercontent.com/21066491/45515164-0cb33b80-b7b0-11e8-8497-297cce29f0ca.png)
 
+### Setimated coefficients of regression of speculative trade on volatility of each pair
+![3](https://user-images.githubusercontent.com/21066491/45515180-16d53a00-b7b0-11e8-931d-2c1420d0b40e.png)
 
+As it can be seen coefficients behind XRP are all significant, which indicates, that it's volatility have very high correlation with speculative processes on other two pairs, but reverse is not true.
+
+### Setimated coefficients of logistic regression of speculative trade on volatility  of each pair.
+Prediction of the probability of volatility bieng in max 10&.
+![4](https://user-images.githubusercontent.com/21066491/45515184-19d02a80-b7b0-11e8-9513-a04ef85d96b6.png)
+
+ROC-AUC plot, volatility on XRP is highly influence by speculations on other two markets.
+![5](https://user-images.githubusercontent.com/21066491/45515195-1f2d7500-b7b0-11e8-9096-65830b8c1fed.png)
