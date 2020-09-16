@@ -1,113 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="27725c51-6879-4f72-b121-e32d3648d5fa" name="Default" comment="smth">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/~$plom_v1.docx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/diplom_v1.docx" afterPath="$PROJECT_DIR$/docs/diplom_v1.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saved_models/GARCH_model.rds" afterPath="$PROJECT_DIR$/saved_models/GARCH_model.rds" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saved_models/fits_of_garch_better.rds" afterPath="$PROJECT_DIR$/saved_models/fits_of_garch_better.rds" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rhistory" afterPath="$PROJECT_DIR$/.Rhistory" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/console06/INDEX001" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/console06/INDEX001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/source-pane.pper" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/source-pane.pper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/windowlayoutstate.pper" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/windowlayoutstate.pper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/workbench-pane.pper" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/pcs/workbench-pane.pper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/6F6717B2/sources/prop/INDEX" afterPath="$PROJECT_DIR$/.Rproj.user/6F6717B2/sources/prop/INDEX" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" afterPath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/funcs.R" afterPath="$PROJECT_DIR$/funcs.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/just_for_plot.py" afterPath="$PROJECT_DIR$/just_for_plot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masters_work.R" afterPath="$PROJECT_DIR$/masters_work.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/masters_work_v2.R" afterPath="$PROJECT_DIR$/masters_work_v2.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nice_table_format.R" afterPath="$PROJECT_DIR$/nice_table_format.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_funcs.py" afterPath="$PROJECT_DIR$/python_funcs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quandl_data.py" afterPath="$PROJECT_DIR$/quandl_data.py" />
+      <change afterPath="$PROJECT_DIR$/.idea/rAvailablePackageCache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rpackages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/load_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/load_data/configs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/load_data/configs/data_load_configs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/load_data/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modeling/best_model_choose.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modeling/utils/visualizations.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/diplom_in_r.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diplom_in_r.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poloniex_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/load_data/poloniex_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XRPGARCH_model.rds" beforeDir="false" afterPath="$PROJECT_DIR$/models/XRPGARCH_model.rds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_model_choose.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_from_poloniex/BTC_DASH" beforeDir="false" afterPath="$PROJECT_DIR$/data/crypto_from_poloniex/BTC_DASH" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_from_poloniex/BTC_ETC" beforeDir="false" afterPath="$PROJECT_DIR$/data/crypto_from_poloniex/BTC_ETC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_from_poloniex/BTC_ETH" beforeDir="false" afterPath="$PROJECT_DIR$/data/crypto_from_poloniex/BTC_ETH" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_from_poloniex/BTC_LTC" beforeDir="false" afterPath="$PROJECT_DIR$/data/crypto_from_poloniex/BTC_LTC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_from_poloniex/BTC_SC" beforeDir="false" afterPath="$PROJECT_DIR$/data/crypto_from_poloniex/BTC_SC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_from_poloniex/BTC_STR" beforeDir="false" afterPath="$PROJECT_DIR$/data/crypto_from_poloniex/BTC_STR" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_from_poloniex/BTC_XEM" beforeDir="false" afterPath="$PROJECT_DIR$/data/crypto_from_poloniex/BTC_XEM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_from_poloniex/BTC_XMR" beforeDir="false" afterPath="$PROJECT_DIR$/data/crypto_from_poloniex/BTC_XMR" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto_from_poloniex/BTC_XRP" beforeDir="false" afterPath="$PROJECT_DIR$/data/crypto_from_poloniex/BTC_XRP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets_created_python/btc_play.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets_created_python/btc_play.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets_created_python/btc_quandl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets_created_python/btc_quandl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets_created_python/df_to_regress.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets_created_python/df_to_regress.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets_created_python/df_to_regress_tests.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets_created_python/df_to_regress_tests.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets_created_python/merged_all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/datasets_created_python/merged_all.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fancy_tables.R" beforeDir="false" afterPath="$PROJECT_DIR$/src/modeling/utils/fancy_tables.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcs.R" beforeDir="false" afterPath="$PROJECT_DIR$/src/modeling/functional.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/just_for_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/load_data/utils/just_for_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/masters_work.R" beforeDir="false" afterPath="$PROJECT_DIR$/src/modeling/test_casuality.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/masters_work_v2.R" beforeDir="false" afterPath="$PROJECT_DIR$/main.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nice_table_format.R" beforeDir="false" afterPath="$PROJECT_DIR$/src/modeling/utils/nice_table_format.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_ds/btc_quandl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/old/old_ds/btc_quandl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_ds/btc_usd_datasets_new.csv" beforeDir="false" afterPath="$PROJECT_DIR$/old/old_ds/btc_usd_datasets_new.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_ds/df_prepared_for_multiple_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/old/old_ds/df_prepared_for_multiple_analysis.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_ds/df_prepared_only_btc.csv" beforeDir="false" afterPath="$PROJECT_DIR$/old/old_ds/df_prepared_only_btc.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_ds/df_to_prepare_for_multiple_analysis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/old/old_ds/df_to_prepare_for_multiple_analysis.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_ds/df_to_regress.csv" beforeDir="false" afterPath="$PROJECT_DIR$/old/old_ds/df_to_regress.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_ds/df_to_regress_BITSTAMP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/old/old_ds/df_to_regress_BITSTAMP.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_ds/merged_all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/old/old_ds/merged_all.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_ds/merged_all.to_csv" beforeDir="false" afterPath="$PROJECT_DIR$/old/old_ds/merged_all.to_csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/load_data/functional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_old/prepare_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/python_old/prepare_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_old/prepare_data_from_scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/old/python_old/prepare_data_from_scratch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quandl_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/load_data/quandl_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_old/addition.r" beforeDir="false" afterPath="$PROJECT_DIR$/old/r_old/addition.r" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_old/descriptive_stats.R" beforeDir="false" afterPath="$PROJECT_DIR$/old/r_old/descriptive_stats.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_old/m2.R" beforeDir="false" afterPath="$PROJECT_DIR$/old/r_old/m2.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_old/masters_work_experiments.R" beforeDir="false" afterPath="$PROJECT_DIR$/old/r_old/masters_work_experiments.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_old/multivariate_analysis.R" beforeDir="false" afterPath="$PROJECT_DIR$/old/r_old/multivariate_analysis.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_old/univariate_analysis.R" beforeDir="false" afterPath="$PROJECT_DIR$/old/r_old/univariate_analysis.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_old/uv_2.R" beforeDir="false" afterPath="$PROJECT_DIR$/old/r_old/uv_2.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/BTC_GARCH_model.rds" beforeDir="false" afterPath="$PROJECT_DIR$/models/saved_models/BTC_GARCH_model.rds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/ETH_GARCH_model.rds" beforeDir="false" afterPath="$PROJECT_DIR$/models/saved_models/ETH_GARCH_model.rds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/GARCH_model.rds" beforeDir="false" afterPath="$PROJECT_DIR$/models/saved_models/GARCH_model.rds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/XRP_GARCH_model.rds" beforeDir="false" afterPath="$PROJECT_DIR$/models/saved_models/XRP_GARCH_model.rds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saved_models/fits_of_garch_better.rds" beforeDir="false" afterPath="$PROJECT_DIR$/models/saved_models/fits_of_garch_better.rds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizations.R" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="poloniex_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/poloniex_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-395">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prepare_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_old/prepare_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-412">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prepare_data_from_scratch.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_old/prepare_data_from_scratch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="python_funcs.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_funcs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-              <folding>
-                <element signature="e#581#645#0" expanded="false" />
-                <element signature="e#671#2223#0" expanded="false" />
-                <element signature="e#2414#4576#0" expanded="false" />
-                <element signature="e#4632#4867#0" expanded="false" />
-                <element signature="e#4914#5329#0" expanded="false" />
-                <element signature="e#5371#5660#0" expanded="false" />
-                <element signature="e#5698#6203#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quandl_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quandl_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="103" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="just_for_plot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/just_for_plot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="83" column="38" lean-forward="false" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,110 +98,37 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Rs</find>
-      <find>#</find>
-      <find>col</find>
-      <find>'name'</find>
-      <find>'close'</find>
-      <find>'volume'</find>
-      <find>'date'</find>
-      <find>plot(</find>
-      <find>null</find>
-      <find>na</find>
-      <find>isn</find>
-      <find>.mean</find>
-      <find>btc_usd_datasets_new.to_csv</find>
-      <find>pct</find>
-      <find>get_json_data</find>
-      <find>price</find>
-      <find>base_polo_url</find>
-      <find>btc_quandl</find>
-      <find>data_dir</find>
-      <find>get_quandl_data</find>
-      <find>quandl</find>
-      <find>total-bitcoins.csv</find>
-      <find>btc_usd_datasets</find>
-      <find>pediod</find>
-      <find>start_date</find>
-      <find>#####</find>
-      <find>.csv</find>
-      <find>prepare_df</find>
-      <find>prepare_df_v2</find>
-      <find>trend_lasts</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/prepare_data.py" />
-        <option value="$PROJECT_DIR$/prepare_data_from_scratch.py" />
-        <option value="$PROJECT_DIR$/crypto_data.py" />
-        <option value="$PROJECT_DIR$/Poloniex_data.py" />
-        <option value="$PROJECT_DIR$/poloniex_data.py" />
-        <option value="$PROJECT_DIR$/just_for_plot.py" />
-        <option value="$PROJECT_DIR$/quandl_data.py" />
-        <option value="$PROJECT_DIR$/python_funcs.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="diplom_in_r" type="b2602c69:ProjectViewProjectNode" />
-              <item name="diplom_in_r" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1hZvO1NdBlDJ6lyJhqrtPGWt6Yw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modeling/utils" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/old" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/src/modeling" />
+    </key>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -228,6 +137,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525633398890</updated>
+      <workItem from="1600231401918" duration="59000" />
+      <workItem from="1600231492845" duration="488000" />
+      <workItem from="1600232128049" duration="1996000" />
     </task>
     <servers />
   </component>
@@ -240,490 +152,37 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1762481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32206118" sideWeight="0.49092284" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52904236" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="smth" />
     <option name="LAST_COMMIT_MESSAGE" value="smth" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="18" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/just_for_plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="94" column="9" lean-forward="false" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-            <element signature="e#581#645#0" expanded="false" />
-            <element signature="e#671#2223#0" expanded="false" />
-            <element signature="e#4632#4867#0" expanded="false" />
-            <element signature="e#4914#5329#0" expanded="false" />
-            <element signature="e#5371#5660#0" expanded="false" />
-            <element signature="e#5698#6203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="110" column="44" lean-forward="true" selection-start-line="110" selection-start-column="44" selection-end-line="110" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-            <element signature="e#581#645#0" expanded="false" />
-            <element signature="e#671#2223#0" expanded="false" />
-            <element signature="e#4632#4867#0" expanded="false" />
-            <element signature="e#4914#5329#0" expanded="false" />
-            <element signature="e#5371#5660#0" expanded="false" />
-            <element signature="e#5698#6203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-            <element signature="e#581#645#0" expanded="false" />
-            <element signature="e#671#2223#0" expanded="false" />
-            <element signature="e#4632#4867#0" expanded="false" />
-            <element signature="e#4914#5329#0" expanded="false" />
-            <element signature="e#5371#5660#0" expanded="false" />
-            <element signature="e#5698#6203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="75" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="58" column="78" lean-forward="false" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-            <element signature="e#581#645#0" expanded="false" />
-            <element signature="e#671#2223#0" expanded="false" />
-            <element signature="e#4632#4867#0" expanded="false" />
-            <element signature="e#4914#5329#0" expanded="false" />
-            <element signature="e#5371#5660#0" expanded="false" />
-            <element signature="e#5698#6203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="75" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-            <element signature="e#581#645#0" expanded="false" />
-            <element signature="e#671#2223#0" expanded="false" />
-            <element signature="e#4632#4867#0" expanded="false" />
-            <element signature="e#4914#5329#0" expanded="false" />
-            <element signature="e#5371#5660#0" expanded="false" />
-            <element signature="e#5698#6203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="141" column="12" lean-forward="false" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-            <element signature="e#581#645#0" expanded="false" />
-            <element signature="e#671#2223#0" expanded="false" />
-            <element signature="e#4632#4867#0" expanded="false" />
-            <element signature="e#4914#5329#0" expanded="false" />
-            <element signature="e#5371#5660#0" expanded="false" />
-            <element signature="e#5698#6203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-            <element signature="e#581#645#0" expanded="false" />
-            <element signature="e#671#2223#0" expanded="false" />
-            <element signature="e#4632#4867#0" expanded="false" />
-            <element signature="e#4914#5329#0" expanded="false" />
-            <element signature="e#5371#5660#0" expanded="false" />
-            <element signature="e#5698#6203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-            <element signature="e#581#645#0" expanded="false" />
-            <element signature="e#671#2223#0" expanded="false" />
-            <element signature="e#4632#4867#0" expanded="false" />
-            <element signature="e#4914#5329#0" expanded="false" />
-            <element signature="e#5371#5660#0" expanded="false" />
-            <element signature="e#5698#6203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepare_data.py" />
-    <entry file="file://$PROJECT_DIR$/prepare_data_from_scratch.py" />
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="74" lean-forward="true" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="91" lean-forward="false" selection-start-line="56" selection-start-column="91" selection-end-line="56" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-            <element signature="e#581#645#0" expanded="false" />
-            <element signature="e#671#2223#0" expanded="false" />
-            <element signature="e#4632#4867#0" expanded="false" />
-            <element signature="e#4914#5329#0" expanded="false" />
-            <element signature="e#5371#5660#0" expanded="false" />
-            <element signature="e#5698#6203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepare_data.py" />
-    <entry file="file://$PROJECT_DIR$/prepare_data_from_scratch.py" />
-    <entry file="file://$PROJECT_DIR$/python_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-            <element signature="e#581#645#0" expanded="false" />
-            <element signature="e#671#2223#0" expanded="false" />
-            <element signature="e#4632#4867#0" expanded="false" />
-            <element signature="e#4914#5329#0" expanded="false" />
-            <element signature="e#5371#5660#0" expanded="false" />
-            <element signature="e#5698#6203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepare_data.py" />
-    <entry file="file://$PROJECT_DIR$/descriptive_stats.R" />
-    <entry file="file://$PROJECT_DIR$/prepare_data.py" />
-    <entry file="file://$PROJECT_DIR$/descriptive_stats.R" />
-    <entry file="file://$PROJECT_DIR$/prepare_data.py" />
-    <entry file="file://$PROJECT_DIR$/all_work.R" />
-    <entry file="file://$PROJECT_DIR$/descriptive_stats.R" />
-    <entry file="file://$PROJECT_DIR$/all_work.R" />
-    <entry file="file://$PROJECT_DIR$/prepare_data.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepare_data_from_scratch.py" />
-    <entry file="file://$PROJECT_DIR$/just_for_plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="83" column="38" lean-forward="false" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poloniex_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_old/prepare_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-412">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_old/prepare_data_from_scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quandl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="103" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding>
-            <element signature="e#581#645#0" expanded="false" />
-            <element signature="e#671#2223#0" expanded="false" />
-            <element signature="e#2414#4576#0" expanded="false" />
-            <element signature="e#4632#4867#0" expanded="false" />
-            <element signature="e#4914#5329#0" expanded="false" />
-            <element signature="e#5371#5660#0" expanded="false" />
-            <element signature="e#5698#6203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="718" y="180" width="530" height="598" key="FileChooserDialogImpl" timestamp="1600231526263">
+      <screen x="67" y="34" width="1853" height="891" />
+    </state>
+    <state x="718" y="180" width="530" height="598" key="FileChooserDialogImpl/67.34.1853.891@67.34.1853.891" timestamp="1600231526263" />
+    <state x="358" y="34" key="SettingsEditor" timestamp="1600233093946">
+      <screen x="67" y="34" width="1853" height="891" />
+    </state>
+    <state x="358" y="34" key="SettingsEditor/67.34.1853.891@67.34.1853.891" timestamp="1600233093946" />
+    <state x="614" y="161" width="759" height="706" key="find.popup" timestamp="1600233894773">
+      <screen x="67" y="34" width="1853" height="891" />
+    </state>
+    <state x="614" y="161" width="759" height="706" key="find.popup/67.34.1853.891@67.34.1853.891" timestamp="1600233894773" />
   </component>
 </project>

@@ -5,13 +5,12 @@
       <excludeFolder url="file://$MODULE_DIR$/all-crypto-currencies" />
       <excludeFolder url="file://$MODULE_DIR$/crypto_from_quandl" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (finance)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="R User Library" level="project" />
     <orderEntry type="library" name="R Skeletons" level="application" />
   </component>
   <component name="TestRunnerService">
-    <option name="projectConfiguration" value="Nosetests" />
     <option name="PROJECT_TEST_RUNNER" value="Nosetests" />
   </component>
 </module>

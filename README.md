@@ -2,6 +2,15 @@
 This repo include code and some data wrappers for my master's degree program. Most analysis was done in R but Python was also used for data gatharing and processing.
 
 It also contains scripts for loading cryptocurrency data from Poloniex (Poloniex_data.py)  and quandl (quandl_data.py) , that might be helpful for you.
+## Usage
+1. You first have to download and save data from poloniex stock exchange and then from quandl using python
+```python
+python main.py
+```
+2. Then conduct main analysis using 
+```r
+Rscript main.R
+```
 ## Approach
 
 In this paper I study the effect of speculative processes of three cryptocurrency markets :USD/BTC, USD/XRP,USD/ETH on volatility on this markets. Key findings are as follows: 1) The price of theese three exchange rates are predominantly formulated bybased on speculative trade, 2) The speculative processes on USD/BTC market cause volatility (instability) on other two markets , but reverse casuality was not revieled 3) USD/XRP is the mostly speculative pair among these three pairs. Ethereuam is the less speculative  ,perhaps due to the fact,that it has much higher fundamental value.
@@ -33,3 +42,8 @@ Prediction of the probability of volatility bieng in max 10%.
 
 ROC-AUC plot, volatility on XRP is highly influence by speculations on other two markets.
 ![5](https://user-images.githubusercontent.com/21066491/45515195-1f2d7500-b7b0-11e8-9096-65830b8c1fed.png)
+
+
+## TODO:
+- Refactoring
+- Test if project is still working
